@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'karla';
+  src: url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  background: grey;
+  font-size: 16px;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  weight: 400;
+}
+
+.main-div {
+  max-width: 800px;
+  margin: auto;
+  border-radius: 50px 50px;
+}
+
+.small-font {
+  font-size: .85em;
+}
+
+.bold-text {
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+p {
+  margin: 0;
+  padding: 50px 60px 30px 30px;
+}
+
+#why-join {
+  background: white;
+  border-radius: 10px 10px 0 0;
+}
+
+#regester {
+  background: rgb(43, 179, 177);
+}
+
+.bttn-green {
+  background: #4CAF50;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  font-size: 16px;
+  max-width: 75%;
+  margin: 1em auto 0 auto;
+  padding: 20px 25% 20px 25%;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bttn-green:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#why-us {
+  background: rgb(74, 190, 189);
+  border-radius: 0 0 10px 10px;
+}
+
+@media only screen and (min-width: 450px) {
+  .row-table {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  #regester {
+    width: 50%;
+    border-radius: 0 0 0 10px;
+  }
+
+  #why-us {
+    width: 50%;
+    border-radius: 0 0 10px 0;
+  }
+}
